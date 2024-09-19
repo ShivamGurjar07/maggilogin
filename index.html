@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maggi Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <!-- Left Sidebar -->
+    <div class="sidebar">
+        <img src="maggi_pic.png" alt="Maggi Logo" class="maggi-logo">
+        <ul class="sidebar_lower">
+            <li><img src="https://www.maggi.in/sites/default/files/2020-01/01_Rezepte.svg" alt="">
+                <a href="#">Recipes</a></li>
+            <li><img src="https://www.maggi.in/sites/default/files/2019-12/05_Maggi.svg" alt="">
+                <a href="#">Maggi</a></li>
+            <li>
+                <img src="https://www.maggi.in/sites/default/files/2022-12/LogoMealPlanner_0.svg" alt="">
+                <a href="#">MyMenu Plan</a></li>
+            <li><img src="https://www.maggi.in/sites/default/files/2019-12/03_Suche_11.svg" alt="">
+                <a href="#">Search</a></li>
+            <li>
+                <img src="https://www.maggi.in/sites/default/files/2020-07/MAGGI_Navigation_MyMaggi_0_0.svg" alt="">
+                <a href="#">Login</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="login-section">
+            <h1>My Maggi</h1>
+            <h2>Welcome back!</h2>
+
+            <button class="social-btn fb-btn">Sign in with Facebook</button>
+            <img src="https://cdn-icons-png.flaticon.com/256/720/720255.png" width="30px" height="30px" alt="">
+            <button class="social-btn google-btn">Sign in with Google</button>
+
+            <form action="#">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Enter your e-mail address here *" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password here *" required>
+
+                <button type="submit" class="login-btn">Login via e-mail</button>
+            </form>
+
+            <a href="#" class="forgot-password">Forgot your password?</a>
+        </div>
+
+        <div class="register-section">
+            <h2>Not registered yet?</h2>
+            <button class="register-btn">Register</button>
+
+            <div class="register-info">
+                <h2>Join Maggi today!</h2>
+                <ul>
+                    <li>
+                        <span class="material-symbols-outlined">
+                            check_circle
+                            </span>
+                        <p>Your personal newsletter with exciting recipes and ideas</p>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">
+                            check_circle
+                            </span>
+                        <p>Personalize your newsletter to your preferences</p>
+                    </li>
+                    <li>
+                        <span class="material-symbols-outlined">
+                            check_circle
+                            </span>
+                        <p>Get to know about Maggi products</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-icons">
+                <a href="#"><img src="https://www.maggi.in/sites/default/files/2020-01/facebook.svg" alt="Facebook" /></a>
+                <a href="#"><img src="https://www.maggi.in/sites/default/files/2020-01/youtube.svg" alt="YouTube" /></a>
+                <a href="#"><img src="https://www.maggi.in/sites/default/files/2020-02/instagram.svg" alt="Instagram" /></a>
+                <a href="#"><img src="https://www.maggi.in/sites/default/files/2020-03/Twitter%20%281%29.svg" alt="Twitter" /></a>
+            </div>
+
+            <div class="footer-links">
+                <a href="#">Contact Us</a>
+                <a href="#">Terms and Conditions</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+
+            <div class="language-switch">
+                <span>EN</span> | <span>HI</span> | <span>MR</span> | <span>TE</span> | <span>KN</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

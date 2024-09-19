@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background-color: #f3f3f3;
+}
+
+.sidebar {
+    width: 100px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+.maggi-logo {
+    width: 90px;
+    margin-bottom: 30px;
+    background-color: yellow;
+}
+
+.sidebar ul {
+    list-style: none;
+    font-weight: lighter;
+}
+
+.sidebar ul li {
+    margin-bottom: 20px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 13px;
+}
+
+.sidebar_lower img{
+    width: 30px;
+    height: 30px;
+}
+.main-content {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.login-section, .register-section {
+    padding: 40px;
+    width: 35%;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    margin:10px 130px;
+}
+
+h1, h2 {
+    color: #333;
+    /* margin-bottom: 20px; */
+    font-size: 45px;
+}
+ .login-section > h2{
+    margin-bottom: 80px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 70px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.social-btn {
+    display: block;
+    /* width: 100%; */
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.fb-btn {
+    background-color: #3b5998;
+}
+
+.google-btn {
+    color: black;
+}
+
+.login-btn {
+    background-color: #CCCCCC;
+    height: 70px;
+    margin-bottom: 10px;
+}
+.register-section{
+    margin-top: 70px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.register-section h2{
+    margin-bottom: 40px;
+}
+.register-btn:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.register-info h2{
+    margin-top: 60px;
+    font-size: 30px;
+}
+.register-btn {
+    background-color: #333;
+    color: white;
+    width: 100%;
+    height: 70px;
+}
+
+.forgot-password {
+    margin-top: 10px;
+    text-align: right;
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+}
+
+.register-info ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.register-info ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.material-symbols-outlined{
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+    color: green;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #3a1d07;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.social-icons img {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+
+.footer-links {
+    margin-right: 50px;
+}
+
+.footer-links a {
+    color: white;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.language-switch span {
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+}
